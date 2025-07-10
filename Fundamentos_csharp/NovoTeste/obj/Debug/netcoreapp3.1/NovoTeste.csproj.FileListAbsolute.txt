@@ -1,0 +1,13 @@
+C:\workspace_pessoal\baltaio\Fundamentos_csharp\NovoTeste\bin\Debug\netcoreapp3.1\NovoTeste.exe
+C:\workspace_pessoal\baltaio\Fundamentos_csharp\NovoTeste\bin\Debug\netcoreapp3.1\NovoTeste.deps.json
+C:\workspace_pessoal\baltaio\Fundamentos_csharp\NovoTeste\bin\Debug\netcoreapp3.1\NovoTeste.runtimeconfig.json
+C:\workspace_pessoal\baltaio\Fundamentos_csharp\NovoTeste\bin\Debug\netcoreapp3.1\NovoTeste.runtimeconfig.dev.json
+C:\workspace_pessoal\baltaio\Fundamentos_csharp\NovoTeste\bin\Debug\netcoreapp3.1\NovoTeste.dll
+C:\workspace_pessoal\baltaio\Fundamentos_csharp\NovoTeste\bin\Debug\netcoreapp3.1\NovoTeste.pdb
+C:\workspace_pessoal\baltaio\Fundamentos_csharp\NovoTeste\obj\Debug\netcoreapp3.1\NovoTeste.csprojAssemblyReference.cache
+C:\workspace_pessoal\baltaio\Fundamentos_csharp\NovoTeste\obj\Debug\netcoreapp3.1\NovoTeste.AssemblyInfoInputs.cache
+C:\workspace_pessoal\baltaio\Fundamentos_csharp\NovoTeste\obj\Debug\netcoreapp3.1\NovoTeste.AssemblyInfo.cs
+C:\workspace_pessoal\baltaio\Fundamentos_csharp\NovoTeste\obj\Debug\netcoreapp3.1\NovoTeste.csproj.CoreCompileInputs.cache
+C:\workspace_pessoal\baltaio\Fundamentos_csharp\NovoTeste\obj\Debug\netcoreapp3.1\NovoTeste.dll
+C:\workspace_pessoal\baltaio\Fundamentos_csharp\NovoTeste\obj\Debug\netcoreapp3.1\NovoTeste.pdb
+C:\workspace_pessoal\baltaio\Fundamentos_csharp\NovoTeste\obj\Debug\netcoreapp3.1\NovoTeste.genruntimeconfig.cache
