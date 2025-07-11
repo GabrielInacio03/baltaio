@@ -10,6 +10,7 @@ namespace MeuApp
             Console.WriteLine("=========================");
             Console.WriteLine("Fundamentos C#");
             Console.WriteLine("=========================");
+            var product = new Product(1, "Teste Produto", 5.70f);
             while (true)
             {
                 Calculadora();
