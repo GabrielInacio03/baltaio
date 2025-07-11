@@ -6,10 +6,11 @@ namespace MeuApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Testando!");
-            Console.WriteLine("============");
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("============");
+            int idade; // correto inicia com ZERO
+            int idade2 = 25;  //correto
+            var idade3 = 25; //correto
+
+            //var idade; ERRADO
         }
     }
 }

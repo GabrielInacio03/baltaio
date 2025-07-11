@@ -10,5 +10,4 @@ C:\workspace_pessoal\baltaio\Fundamentos_csharp\MeuApp\obj\Debug\netcoreapp3.1\M
 C:\workspace_pessoal\baltaio\Fundamentos_csharp\MeuApp\obj\Debug\netcoreapp3.1\MeuApp.dll
 C:\workspace_pessoal\baltaio\Fundamentos_csharp\MeuApp\obj\Debug\netcoreapp3.1\MeuApp.pdb
 C:\workspace_pessoal\baltaio\Fundamentos_csharp\MeuApp\obj\Debug\netcoreapp3.1\MeuApp.genruntimeconfig.cache
-C:\workspace_pessoal\baltaio\Fundamentos_csharp\MeuApp\obj\Debug\netcoreapp3.1\MeuApp.GeneratedMSBuildEditorConfig.editorconfig
-C:\workspace_pessoal\baltaio\Fundamentos_csharp\MeuApp\obj\Debug\netcoreapp3.1\MeuApp.sourcelink.json
+C:\workspace_pessoal\baltaio\Fundamentos_csharp\MeuApp\obj\Debug\netcoreapp3.1\MeuApp.csprojAssemblyReference.cache
