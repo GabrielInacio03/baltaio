@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/Fundamentos_csharp/MeuApp/MeuApp.csproj",
+                "${workspaceFolder}/Fundamentos_csharp/Stopwatch/Stopwatch.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary;ForceNoAlign"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/Fundamentos_csharp/MeuApp/MeuApp.csproj",
+                "${workspaceFolder}/Fundamentos_csharp/Stopwatch/Stopwatch.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary;ForceNoAlign"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/Fundamentos_csharp/MeuApp/MeuApp.csproj"
+                "${workspaceFolder}/Fundamentos_csharp/Stopwatch/Stopwatch.csproj"
             ],
             "problemMatcher": "$msCompile"
         }

@@ -4,14 +4,15 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+    
         {
             "name": ".NET Core Launch (console)",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/Fundamentos_csharp/MeuApp/bin/Debug/netcoreapp3.1/MeuApp.dll",
+            "program": "${workspaceFolder}/Fundamentos_csharp/Stopwatch/bin/Debug/netcoreapp3.1/Stopwatch.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/Fundamentos_csharp/MeuApp",
+            "cwd": "${workspaceFolder}/Fundamentos_csharp/Stopwatch",
             "console": "internalConsole",
             "stopAtEntry": false
         },
