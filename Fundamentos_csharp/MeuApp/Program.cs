@@ -6,9 +6,10 @@ namespace MeuApp
     {
         static void Main(string[] args)
         {
+            System.Console.WriteLine("testando variáveis");
            // int idade; // correto inicia com ZERO
-           // int idade2 = 25;  //correto
-           // var idade3 = 25; //correto
+            // int idade2 = 25;  //correto
+            // var idade3 = 25; //correto
 
             //var idade; ERRADO
         }
