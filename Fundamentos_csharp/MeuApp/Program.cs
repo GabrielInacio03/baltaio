@@ -6,9 +6,9 @@ namespace MeuApp
     {
         static void Main(string[] args)
         {
-            int idade; // correto inicia com ZERO
-            int idade2 = 25;  //correto
-            var idade3 = 25; //correto
+           // int idade; // correto inicia com ZERO
+           // int idade2 = 25;  //correto
+           // var idade3 = 25; //correto
 
             //var idade; ERRADO
         }
