@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace MeuApp
 {
@@ -10,7 +11,19 @@ namespace MeuApp
             Console.WriteLine("=========================");
             Console.WriteLine("Fundamentos C#");
             Console.WriteLine("=========================");
-            var product = new Product(1, "Teste Produto", 5.70f);
+
+            var texto = new StringBuilder();
+            texto.Append("este texto");
+            texto.Append(" é um");
+            texto.Append(" teste");
+
+            Console.WriteLine(texto.ToString());
+            //var texto = "este texto é um teste";
+            //Console.WriteLine("Posição: " + texto.IndexOf("batata"));
+            //var Id = Guid.NewGuid();
+            //Console.WriteLine($"ID: {Id}");
+            // var product = new Product(1, "Teste Produto", 5.70f);
+            /*
             while (true)
             {
                 Calculadora();
@@ -23,7 +36,7 @@ namespace MeuApp
                 if (op == 2) break;
 
             }
-            
+            */
         }
         static void Calculadora()
         {
