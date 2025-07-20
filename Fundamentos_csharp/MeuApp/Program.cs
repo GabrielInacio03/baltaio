@@ -17,6 +17,11 @@ namespace MeuApp
             var enUs = new CultureInfo("en-US");
             var atual = CultureInfo.CurrentCulture;
             Console.WriteLine(DateTime.Now.ToString("D", atual));
+
+            //unidade de medida universal para calculo de horas, diferença de horas...
+            var timeSpan = new TimeSpan();
+            timeSpan.CompareTo(DateTime.Now);
+
             /*
             var data = new DateTime(2025, 07, 16, 21, 07, 15);
             //var data = DateTime.Now;
