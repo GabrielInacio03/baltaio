@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 using System.Text;
 
 namespace MeuApp
@@ -11,31 +12,26 @@ namespace MeuApp
             Console.WriteLine("=========================");
             Console.WriteLine("Fundamentos C#");
             Console.WriteLine("=========================");
-
-            var texto = new StringBuilder();
-            texto.Append("este texto");
-            texto.Append(" é um");
-            texto.Append(" teste");
-
-            Console.WriteLine(texto.ToString());
-            //var texto = "este texto é um teste";
-            //Console.WriteLine("Posição: " + texto.IndexOf("batata"));
-            //var Id = Guid.NewGuid();
-            //Console.WriteLine($"ID: {Id}");
-            // var product = new Product(1, "Teste Produto", 5.70f);
+            var pt = new CultureInfo("pt-BR");
+            var ptt = new CultureInfo("pt-PT");
+            var enUs = new CultureInfo("en-US");
+            var atual = CultureInfo.CurrentCulture;
+            Console.WriteLine(DateTime.Now.ToString("D", atual));
             /*
-            while (true)
-            {
-                Calculadora();
-                Console.WriteLine("=========================");
-                Console.WriteLine("Deseja continuar ?"
-                + "\n 1- SIM"
-                + "\n 2- NÃO");
-                int op = int.Parse(Console.ReadLine());
+            var data = new DateTime(2025, 07, 16, 21, 07, 15);
+            //var data = DateTime.Now;
+            Console.WriteLine(data);
+            Console.WriteLine(data.Year);
+            Console.WriteLine(data.Month);
+            Console.WriteLine(data.Day);
+            Console.WriteLine(data.Hour);
 
-                if (op == 2) break;
+            if (data.Date == DateTime.Now.Date) Console.WriteLine("data são iguais");
 
-            }
+
+            Console.WriteLine($"{data.DayOfWeek} => {(int)data.DayOfWeek}");
+            var formatada = String.Format("{0:s}", data);
+            Console.WriteLine($"Data Formatada: {formatada}");
             */
         }
         static void Calculadora()
