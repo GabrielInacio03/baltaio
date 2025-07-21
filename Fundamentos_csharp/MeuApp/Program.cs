@@ -12,7 +12,24 @@ namespace MeuApp
             Console.WriteLine("=========================");
             Console.WriteLine("Fundamentos C#");
             Console.WriteLine("=========================");
-            
+            var meuArrayInteiros = new int[5] { 1, 2, 3, 4, 5 };
+            string[] meuArray = new string[3];
+            meuArray[0] = "A";
+            meuArray[1] = "B";
+            meuArray[2] = "C";
+
+            Console.WriteLine($"Tamanho do Array: {meuArray.Length} posições");
+            for (int i = 0; i < meuArray.Length; i++)
+            {
+                Console.WriteLine(meuArray[i]);
+            }
+            Console.WriteLine("---");
+            foreach (var letras in meuArray)
+            {
+                Console.WriteLine(letras);
+            }
+
+            /*
             var pt = new CultureInfo("pt-BR");
             var ptt = new CultureInfo("pt-PT");
             var enUs = new CultureInfo("en-US");
@@ -26,7 +43,7 @@ namespace MeuApp
 
 
             Console.WriteLine(DateTime.Now.ToString("D", atual));
-
+            */
             //unidade de medida universal para calculo de horas, diferença de horas...
             //var timeSpan = new TimeSpan();
             //timeSpan.CompareTo(DateTime.Now);
