@@ -12,6 +12,21 @@ namespace MeuApp
             Console.WriteLine("=========================");
             Console.WriteLine("Fundamentos C#");
             Console.WriteLine("=========================");
+
+            try
+            {
+                int opcao = int.Parse(Console.ReadLine());
+            }
+            catch (System.Exception ex)
+            {
+                Console.WriteLine($"Exception.Error.Message: {ex.Message}");
+                Console.WriteLine($"Exception.Error.InnerException: {ex.InnerException?.Message}");
+            }
+            finally
+            {
+                Console.WriteLine("Ocorreu um erro no sistema");
+            }
+
             var meuArrayInteiros = new int[5] { 1, 2, 3, 4, 5 };
             string[] meuArray = new string[3];
             meuArray[0] = "A";
