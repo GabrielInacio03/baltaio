@@ -12,15 +12,24 @@ namespace MeuApp
             Console.WriteLine("=========================");
             Console.WriteLine("Fundamentos C#");
             Console.WriteLine("=========================");
+            
             var pt = new CultureInfo("pt-BR");
             var ptt = new CultureInfo("pt-PT");
             var enUs = new CultureInfo("en-US");
             var atual = CultureInfo.CurrentCulture;
+
+            decimal valor = 10.25M;
+            Console.WriteLine(valor.ToString("C", atual)); //coloca no padrão de moeda: R$10,25
+            Console.WriteLine(Math.Round(valor));
+            Console.WriteLine(Math.Ceiling(valor)); //arrendonda para cima
+            Console.WriteLine(Math.Floor(valor)); //arrendonda para baixo
+
+
             Console.WriteLine(DateTime.Now.ToString("D", atual));
 
             //unidade de medida universal para calculo de horas, diferença de horas...
-            var timeSpan = new TimeSpan();
-            timeSpan.CompareTo(DateTime.Now);
+            //var timeSpan = new TimeSpan();
+            //timeSpan.CompareTo(DateTime.Now);
 
             /*
             var data = new DateTime(2025, 07, 16, 21, 07, 15);
