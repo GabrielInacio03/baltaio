@@ -16,7 +16,7 @@ namespace Payments
             room.ReserveSeat();
         }
         static void OnRoomSoldOut(object sender, EventArgs eventArgs)
-        {
+        { 
             Console.WriteLine("SALA Lotada!!!");
         }
     }
